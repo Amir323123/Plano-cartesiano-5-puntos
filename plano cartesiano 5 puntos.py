@@ -9,10 +9,10 @@ y4 = int(input('escriba la variable y4: '))
 x5 =int(input("escriba la variable x5:"))
 y5 = int(input('escriba la variable y5: '))
 
-d1=((x1-x2)+ (y1-y2))**2
-d2=((x1-x3)+ (y1 -y3))**2
-d3=((x1-x4)+ (y1 -y4))**2
-d4=((x1-x5)+ (y1 -y5))**2
+d1=((x1-x2)*2+ (y1-y2)*2)**2
+d2=((x1-x3)*2+ (y1 -y3)*2)**2
+d3=((x1-x4)*2+ (y1 -y4)*2)**2
+d4=((x1-x5)*2+ (y1 -y5)*2)**2
 if d1<d2 and d1<d3 and d1<d4:
 	print("el segundo punto esta mas cerca del primero")
 elif d2<d1 and d2<d3 and d2<d4:
